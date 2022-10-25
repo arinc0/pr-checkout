@@ -9,5 +9,4 @@ fi
 
 git fetch ${ORIGIN} refs/pull/${ID}/head
 git checkout -b pr/${ID} FETCH_HEAD^
-# なくても大丈夫そう
-# git pull ${ORIGIN} refs/pull/${ID}/head
+git pull ${ORIGIN} refs/pull/${ID}/head
